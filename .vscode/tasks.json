@@ -8,7 +8,7 @@
             "label": "build",
             "detail": "Build workspace (default)",
             "type": "shell",
-            "command": "colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release --catkin-skip-buidling-tests --symlink-install",
+            "command": "colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release --catkin-skip-building-tests --symlink-install",
             "group": {
                 "kind": "build",
                 "isDefault": true
